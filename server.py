@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
------------------------------------------------------------------------
+#-----------------------------------------------------------------------
 
 API_SECRET = os.environ.get("API_SECRET", "غيّر-هذا-السر-لاحقاً")
 
